@@ -38,7 +38,7 @@ st.set_page_config(page_title="A股连续涨停分析工具", page_icon="📈", 
 # 初始化OpenAI客户端（用于DeepSeek API）
 client = OpenAI(
     base_url="https://api.deepseek.com",  # DeepSeek API 地址
-    api_key='sk-b6c714570b9844f392aa3812f3f7a7fc'  # 替换为您的API密钥
+    api_key='sk-b6c714570b9833f392aa3812f3f7a7fc'  # 替换为您的API密钥
 )
 
 # 获取交易日历
