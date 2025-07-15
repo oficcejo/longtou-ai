@@ -1,6 +1,11 @@
-# A股连续涨停股票分析系统
+# A股连续涨停股票分析系统（中国股市ai自动分析龙头股票）
 
 这是一个用于分析A股市场连续涨停股票的Web应用，它能够自动获取股票数据，识别连续涨停的股票，进行可视化展示，并使用DeepSeek AI进行板块分析和龙头股识别。
+<img width="1450" height="741" alt="image" src="https://github.com/user-attachments/assets/f3e6abab-3992-4a41-9d05-9d7d20f4479a" />
+
+<img width="1804" height="694" alt="image" src="https://github.com/user-attachments/assets/eaa71a07-5593-45f5-94e4-d5abc9811b55" />
+<img width="1351" height="725" alt="image" src="https://github.com/user-attachments/assets/72fc29be-8492-415a-b6b3-d1bde21f764b" />
+<img width="1503" height="788" alt="image" src="https://github.com/user-attachments/assets/4d6bdb6c-9c49-4f62-b520-d978e5ec6207" />
 
 ## 功能特点
 
@@ -12,7 +17,7 @@
 - 按行业板块分类统计
 - 使用DeepSeek AI进行智能分析
 - 支持选择不同交易日期
-
+- 增加反包战法（股市大盘下跌时使用，大概率有效）
 ## 安装要求
 
 1. 确保已安装Python 3.7或更高版本
@@ -23,6 +28,7 @@ pip install -r requirements.txt
 ```
 
 ## 使用方法
+<img width="986" height="425" alt="image" src="https://github.com/user-attachments/assets/c34e71ce-b1dc-4efa-9c8d-ed80a96ad707" />
 
 1. 首先配置DeepSeek API密钥：
    - 打开`main.py`文件
@@ -65,3 +71,4 @@ streamlit run main.py
 
 - API调用可能需要付费，请注意控制使用频率
 - 本程序仅供参考，投资决策请谨慎
+- 远程服务器安装不可用
